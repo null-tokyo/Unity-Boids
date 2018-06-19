@@ -138,7 +138,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -224,7 +224,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.17888926, g: 0.18269646, b: 0.18867922, a: 0}
+  m_BackGroundColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -258,7 +258,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 282840810}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -50}
+  m_LocalPosition: {x: 0, y: 0, z: -60}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -304,10 +304,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f7bd5ba851944399aa76c88606af962, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumBoids: 100
-  boid: {fileID: 1727687390738534, guid: 8d723782e8a534dbb8271f65bcac9865, type: 2}
-  centerBoid: {fileID: 1727687390738534, guid: 8d723782e8a534dbb8271f65bcac9865, type: 2}
-  bossBoid: {fileID: 1749547322299678, guid: ea943d15ca140444c85a03ee4ca30625, type: 2}
+  NumBoids: 30
+  boid: {fileID: 1675461257720096, guid: 8d723782e8a534dbb8271f65bcac9865, type: 2}
+  centerBoid: {fileID: 1675461257720096, guid: 8d723782e8a534dbb8271f65bcac9865, type: 2}
   boids: []
-  Distance: 1
-  Radius: 10
+  groupingDistance: 15
+  SeparationDistance: 3
+  AreaRadius: 50
